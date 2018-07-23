@@ -1,11 +1,7 @@
 <template>
   <div id="app">
     <my-header :msg="msg"></my-header>
-    <my-content
-      id="content"
-      data-server-rendered="true"
-      :links="links"
-    ></my-content>
+    <my-content id="content" :links="links"></my-content>
     <my-footer></my-footer>
   </div>
 </template>
